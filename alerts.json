@@ -1,0 +1,30 @@
+[
+  {
+    "latitude": 26.08147,
+    "longitude": -80.2448,
+    "type": "Help Required",
+    "description": "Need assitance with a Pet.",
+    "name": "John Doe",
+    "phone": "+1-305-123-4567"
+  },
+  {
+    "latitude": 26.0795,
+    "longitude": -80.2509,
+    "type": "Help Offered",
+    "description": "Offering shelter for people affected by the storm.",
+    "name": "Jane Smith",
+    "phone": "+1-786-987-6543"
+  },
+  {
+    "latitude": 26.082,
+    "longitude": -80.2354,
+    "type": "Warning",
+    "description": "Temporary roadblock due to maintenance work."
+  },
+  {
+    "latitude": 26.0855,
+    "longitude": -80.2375,
+    "type": "Danger",
+    "description": "Severe flooding in the area, avoid if possible."
+  }
+]
