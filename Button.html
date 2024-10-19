@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Emergency Button</title>
+
+    <style>
+        body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8d7da;
+    color: #721c24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #f5c6cb;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+.emergency-button {
+    padding: 15px 30px;
+    font-size: 20px;
+    color: white;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.emergency-button:hover {
+    background-color: #c82333;
+}
+
+.emergency-button:active {
+    background-color: #bd2130;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Emergency Alert</h1>
+        <p>If you are in an emergency situation, please press the button below to share your location.</p>
+        <button class="emergency-button" onclick="alert('Emergency Alert Triggered!')">
+            Emergency Button
+        </button>
+    </div>
+</body>
+</html>
